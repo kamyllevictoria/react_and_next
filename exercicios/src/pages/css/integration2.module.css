@@ -1,0 +1,18 @@
+.red{
+    color: lightcoral;
+}
+
+.blue{
+    color: lightblue;
+}
+.pink{
+    color: pink;
+    background-color: #444;
+}
+
+#integration2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
