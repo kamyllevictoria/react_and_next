@@ -6,7 +6,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Line/>
+      <Line black/>
       <Line/>
+      <Line black/>
+      <Line/>
+      <Line black/>
+      <Line/>
+      <Line black/>
     </div>
   );
 }
