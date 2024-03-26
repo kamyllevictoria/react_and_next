@@ -1,14 +1,12 @@
-import styles from '../styles/subdivision.module.css'
-import Subdivision from '../components/subdivision'
+import Subdivision from '../components/subdivision';
+import styles from '../styles/subdivision.module.css';
+import Line from '../components/line';
 
-
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <div className={styles.container}>
-      <Subdivision></Subdivision>
-      <Subdivision></Subdivision>
-      <Subdivision></Subdivision>
-      
+      <Line/>
+      <Line/>
     </div>
-  )
+  );
 }

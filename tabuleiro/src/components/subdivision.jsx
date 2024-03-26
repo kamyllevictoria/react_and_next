@@ -1,8 +1,11 @@
-import Styles from '../styles/subdivision.module.css'
+import styles from '../styles/subdivision.module.css'
 
-export default function subdivision(props){
+export default function Subdivision(props){
     return(
-        <div className={Styles.sub}>
+        <div style={{
+            backgroundColor: props.black ? "#000" : "#fff"
+        }} 
+        className={styles.sub}>
 
         </div>
     )
